@@ -1,8 +1,8 @@
 use anchor_lang::prelude::*;
 use anchor_spl::{metadata::{mpl_token_metadata::{accounts::Metadata, instructions::{FreezeDelegatedAccountCpi, FreezeDelegatedAccountCpiAccounts}}, MasterEditionAccount, MetadataAccount}, token::{Approve, Mint, Token, TokenAccount}};
 use anchor_spl::token::approve;
-use crate::{Config, StakeAccount, UserAccount};
 
+use crate::{Config, StakeAccount, UserAccount};
 
 #[derive(Accounts)]
 pub struct Stake<'info> {

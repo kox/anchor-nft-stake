@@ -10,3 +10,6 @@ pub use create_user_account::*;
 
 pub mod unstake;
 pub use unstake::*;
+
+pub mod claim;
+pub use claim::*;
